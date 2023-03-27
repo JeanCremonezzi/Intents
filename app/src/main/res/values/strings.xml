@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">intents</string>
+    <string name="openInBrowser">Abrir no navegador</string>
+    <string name="otherIntents">Outras intenções</string>
+    <string name="call">Chamar número</string>
+    <string name="dialNumber">Discar Número</string>
+    <string name="getImage">Pegar Imagem</string>
+    <string name="chooseApp">Escolher App</string>
 </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/viewMi"
+        android:icon="@drawable/ic_browser"
+        android:title="@string/openInBrowser"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="@string/otherIntents"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:title="@string/call"
+                android:id="@+id/callMi"/>
+
+            <item
+                android:title="@string/dialNumber"
+                android:id="@+id/dialMi"/>
+
+            <item
+                android:title="@string/getImage"
+                android:id="@+id/pickMi"/>
+
+            <item
+                android:title="@string/chooseApp"
+                android:id="@+id/chooserMi"/>
+
+        </menu>
+    </item>
+
+</menu>
